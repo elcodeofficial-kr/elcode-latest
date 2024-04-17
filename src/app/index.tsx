@@ -1,9 +1,9 @@
-import { Button } from "@/shared/main/ui/button/";
 import { Layout } from "./layout";
+import { Main } from "@/pages/main";
 function App() {
   return (
     <Layout>
-      <Button>Click me</Button>
+      <Main />
     </Layout>
   );
 }
