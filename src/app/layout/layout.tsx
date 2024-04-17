@@ -6,7 +6,9 @@ export const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <>
       <Header />
-      <main id="main">{children}</main>
+      <main id="main" className="bg-black h-dvh">
+        {children}
+      </main>
       <Footer />
     </>
   );

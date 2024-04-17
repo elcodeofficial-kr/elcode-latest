@@ -1,7 +1,10 @@
+import { Hero } from "@/widgets/hero";
+
 export const Main = () => {
   return (
     <>
-      <h1 className="text-orange-400"></h1>
+      <Hero />
+      <h1 className="text-orange-400">Main Text</h1>
     </>
   );
 };
